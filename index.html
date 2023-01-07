@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article class="nft">
+        <div class="nft__img">
+          <img
+            src="images/image-equilibrium.jpg"
+            alt="nft image"
+            class="nft__img-main"
+          />
+          <div class="nft__img-hover"></div>
+          <img
+            src="images/icon-view.svg"
+            alt="eye icon"
+            class="nft__img-hover-2"
+          />
+        </div>
+
+        <div class="nft__content">
+          <h1 class="nft__title">Equilibrium #3249</h1>
+          <p class="nft__description">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="flex-group">
+            <p class="nft__price">
+              <img src="images/icon-ethereum.svg" alt="" /> 0.041 Eth
+            </p>
+            <p class="nft__time">
+              <img src="images/icon-clock.svg" alt="" /> 3 days left
+            </p>
+          </div>
+          <div class="line"></div>
+          <div class="nft__profile">
+            <img
+              src="images/image-avatar.png"
+              alt="Creator Picture"
+              class="nft__profile-picture"
+            />
+            <p>
+              Creation of <span class="nft__profile-name">Jules Wyvern</span>
+            </p>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
